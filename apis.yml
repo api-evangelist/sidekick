@@ -1,7 +1,23 @@
 aid: sidekick
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sidekick.png
 name: Sidekick
-description: Sidekick is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Sidekick is a UK-based online wealth management and investing platform that offers
+  expert-led investments and savings products once reserved for the ultra-wealthy, delivered through
+  a mobile app and web platform. Its product range spans managed investment portfolios, savings
+  accounts, private equity access, and cryptocurrency exposure. Surfaced as a portfolio company of
+  Seedcamp, Sidekick is a consumer (B2C) fintech and publishes no public developer API, developer
+  portal, or API documentation as of this enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/sidekick/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Wealth Management
+- Investing
+- Savings
+- Fintech
+- Personal Finance
+- Private Equity
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +45,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://sidekickmoney.com
+  url: https://sidekickmoney.com
+- type: Support
+  url: https://support.sidekickmoney.com/en/
+- type: SignUp
+  url: https://sidekickmoney.com/get-started
+- type: Blog
+  url: https://sidekickmoney.com/stories
+- type: PrivacyPolicy
+  url: https://sidekickmoney.com/legal/privacy-policy
+- type: TermsOfService
+  url: https://app.termly.io/policy-viewer/policy.html?policyUUID=986ce345-c5f4-417a-b079-a528d63dab44
+- type: DomainSecurity
+  url: security/sidekick-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
